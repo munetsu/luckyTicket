@@ -1,0 +1,139 @@
+@charset "utf-8";
+* {
+    box-sizing:border-box;
+}
+
+body {
+    width: 100vw;
+    padding: 0 15vw;
+    font-size: 16px;
+}
+
+img {
+    width: 20vw;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: #e7df6a;
+    height: 40px;
+    padding: 10px 0 ;
+}
+
+.main {
+    display: flex;
+    text-align: center;
+}
+
+.createNumber {
+    width: 40vw;
+    margin: 5vh auto;
+    text-align: center;
+}
+
+.btn, .rebtn {
+    display: inline-block;
+    background-color: #a98943;
+    width: 30vw;
+    height: 10vh;
+    color: #f8f4ed;
+    line-height: 8vh;
+    padding: 1vh;
+}
+
+/******************************************** 
+* Numbers3, Numbers4
+*********************************************/
+.numbers3, .numbers4 {
+    text-align: center;
+}
+
+.numbersImg {
+    height: 15vh;
+}
+
+/* .logo {
+    margin-top: 3vh;
+} */
+
+.column {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column div {
+    margin-top: 3vh;
+}
+
+.numbers {
+    font-size: 1.6rem;
+    padding: 1vw;
+}
+
+
+/******************************************** 
+* Bingo5
+*********************************************/
+.bingo5 {
+    text-align: center;
+}
+
+.line{
+    display: flex;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+.row {
+    height: 3vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.oneblock {
+    width: 15vw;
+    height: 9vw;
+    margin: 1vw auto;
+    border: solid 0.1px gray; 
+    text-align: center;
+}
+
+.freearea {
+    line-height: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+/******************************************** 
+* Miniloto
+*********************************************/
+.loto {
+    text-align: center;
+}
+
+.block {
+    width: 8vw;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+}
+
+.answerarea {
+    margin-bottom: 3vh;
+    display: flex;
+    text-align: center;
+}
+
+.selectblock {
+    width: 8vw;
+    margin: 2vw;
+    padding: 1vw;
+    border: solid 1vw #eca200;
+    text-align: center;
+}
